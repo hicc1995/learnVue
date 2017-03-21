@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <router-link to="/home">主页</router-link>  
     <router-view></router-view>
+    <footer>from cc</footer>
   </div>
 </template>
 
